@@ -1,0 +1,20 @@
+name: VoteStore
+main: VoteStore
+version: 1.1
+author: TheAmazingG
+commands:
+ votestore:
+  description: Shows the commands for votestore
+  usage: /votestore [...]
+  permission: votestore.votestore
+  permission-message: You don't have <permission>
+ vs:
+  description: Shortcut for votestore
+  usage: /vs [...]
+  permission: votestore.votestore
+  permission-message: You don't have <permission>
+ vsmanage:
+  description: Management for votestore
+  usage: /vsmanage [...]
+  permission: votestore.vsmanage
+  permission-message: You don't have <permission>
